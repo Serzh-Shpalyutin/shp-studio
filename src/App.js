@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <h1>Hello shpstudio</h1>
+        <h1>Hello shpstudio v2</h1>
     </div>
   );
 }
