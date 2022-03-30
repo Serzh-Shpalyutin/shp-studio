@@ -16,4 +16,4 @@ jobs:
       - run: echo "${{ secrets.key }}" > "$HOME/.ssh/key"
       - run: chmod 600 "$HOME/.ssh/key"
       # Deploy
-      - run: cd build && rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . server177.hosting.reg.ru:/www/shpstudio.ru
+      - run: rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . /var/www/u1530990/data/www/shpstudio.ru
