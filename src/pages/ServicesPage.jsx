@@ -3,7 +3,7 @@ import React from 'react';
 const ServicesPage = () => {
   return (
       <div className="services">
-        <div className="services__head">
+        <div className="head">
           <div className="section-title services__title">УСЛУГИ, КОТОРЫЕ ПРЕДОСТАВЛЯЕМ</div>
           
           <button className="btn">Связаться с нами</button>
