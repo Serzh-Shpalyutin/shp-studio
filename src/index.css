@@ -41,7 +41,7 @@
 :root {
   --base-white: #fff;
   --base-black: #524151;
-  --secondary-color: #D3FF57;
+  --secondary-color: #FCFF62;
   --minor-color: #FF5038;
   --side-color: #F5F5F5;
 }
@@ -118,13 +118,20 @@ a{
   transition: all .2s ease-in-out;
 }
 
-.btn--red {
-  background-color: var(--minor-color);
-}
-
 .btn--gray {
   background-color: var(--side-color);
   color: var(--base-black);
+}
+
+.btn--border {
+  border: 1px solid #524151;
+}
+
+.section-title {
+  font-size: calc(24px + 14* ((100vw - 320px) / 1600));
+  line-height: 114%;
+  font-weight: 800;
+  letter-spacing: 0.1em;
 }
 
 .overlay {

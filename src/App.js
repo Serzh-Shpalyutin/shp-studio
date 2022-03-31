@@ -1,8 +1,9 @@
 import './App.css';
-import Sidebar from "./components/Sidebar";
-import FirstScreen from "./components/FirstScreen";
-import Popup from "./components/Popup";
 import {Route, Routes} from "react-router-dom";
+import Sidebar from "./components/Sidebar";
+import FirstScreen from "./pages/FirstScreen";
+import ServicesPage from "./pages/ServicesPage";
+import Popup from "./components/Popup";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <main className="main">
             <Routes>
               <Route path="/" element={<FirstScreen/>}/>
+              <Route path="/services/" element={<ServicesPage/>}/>
             </Routes>
           </main>
         </div>
