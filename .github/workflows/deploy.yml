@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2.3.2
 
       - name: Sync files
-        uses: SamKirkland/FTP-Deploy-Actions@4.0.0
+        uses: Serzh-Shpalyutin/shp-studio
         with:
           server: 31.31.196.223
           username: ${{ secrets.ftp_username }}
