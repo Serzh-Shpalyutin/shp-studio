@@ -18,5 +18,5 @@ jobs:
           server: 31.31.196.223
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: /var/www/u1530990/data/www/shpstudio.ru/
+          server-dir: www/shpstudio.ru/
 
